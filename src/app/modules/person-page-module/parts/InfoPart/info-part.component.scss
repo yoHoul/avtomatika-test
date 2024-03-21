@@ -1,0 +1,154 @@
+.info {
+    height: 100%;
+    width: 100%;
+    background-color: #1b1b1b;
+}
+
+.info-top {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+
+.info-top-left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.info-top-img {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #0078D2; 
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-top-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.info-top-right {
+    width: 50%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 3%;
+}
+
+.check-button {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 169px;
+    height: 32px;
+    border: none;
+    background: #0078D2;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.person-name {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.person-description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 7px;
+    color: #FFFFFF99;
+}
+
+.info-middle {
+    height: 70px;
+    width: calc(100% - margin-left);
+    display: flex;
+    margin-left: 3%;
+    align-items: center;
+}
+
+.info-switch-btn {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-switch-btn-container {
+    font-size: 14px;
+    width: 176px;
+    height: 32px;
+    border: 2px solid #FFFFFF33;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.info-switch-btn-active {
+    width: 50%;
+    height: 32px;
+    background-color: #0078D2;
+    border: 2px solid #0078D2;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+}
+
+.info-switch-btn-disable {
+    color: #FFFFFFCC;
+    width: 50%;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.info-btn-img {
+    display: flex;
+    align-items: center;
+    background-color: #1b1b1b;
+    border: none;
+    cursor: pointer;
+}
+
+.info-switch-img {
+    width: 32px;
+    height: 32px;
+}
+
+.info-bottom {
+    display: flex;
+    margin: 1% 3% 3% 3%;
+    gap: 3%;
+}
+
+.info-cards {
+    height: 250px;
+    width: 100%;
+    
+}
+
+

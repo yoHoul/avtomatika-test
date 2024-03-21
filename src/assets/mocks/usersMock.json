@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "password": "111",
+    "name": "Иван Егорович Сергеев",
+    "position": "Технолог КВР-342",
+    "img": "../../../assets/avatars/avatar1.png",
+    "isActive": false
+  },
+  {
+    "id": 2,
+    "password": "222",
+    "name": "Петр Петрович Иванов",
+    "position": "Технолог ИВТ-362",
+    "isActive": false,
+    "backgroundColor": "#4287f5"
+  },
+  {
+    "id": 3,
+    "password": "333",
+    "name": "Сидор Сидорович Сидоров",
+    "position": "Технолог ФИТ-142",
+    "isActive": false,
+    "backgroundColor": "#00bf4c"
+  },
+  {
+    "id": 4,
+    "password": "444",
+    "name": "Анна Фёдоровна Овчинникова",
+    "position": "Технолог МО-746",
+    "img": "../../../assets/avatars/avatar2.png",
+    "isActive": false
+  },
+  {
+    "id": 5,
+    "password": "555",
+    "name": "Николай Николаевич Рыбин",
+    "position": "Технолог ИСТ-952",
+    "isActive": false,
+    "backgroundColor": "#c90076"
+  }
+]

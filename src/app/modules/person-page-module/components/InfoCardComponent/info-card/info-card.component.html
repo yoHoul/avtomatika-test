@@ -1,0 +1,21 @@
+<div class="info-card">
+  <div class="info-card-header">
+    <div class="info-card-title">
+      {{card?.title}}
+    </div>
+    <label class="info-card-progress-bar" prizmProgressLabel>
+      <span class="percent" *ngIf="card?.allTasks">{{ card?.taskComplete }} / {{ card?.allTasks }}</span>
+      <span class="percent" *ngIf="!card?.allTasks">{{ card?.taskComplete }}%</span>
+      <prizm-progress-circle [max]="card && card.allTasks? card.allTasks : 100" [value]="card? card.taskComplete: 0"
+        size="xl"></prizm-progress-circle>
+    </label>
+  </div>
+  <div class="info-card-activity">
+    Последнее обновление в {{ card?.lastDate }}
+    <div *ngIf="card?.notification">
+      <button class="info-card-btn">
+        Напомнить
+      </button>
+    </div>
+  </div>
+</div>

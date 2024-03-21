@@ -1,0 +1,12 @@
+<div class="login-page">
+  <prizm-input-layout label="Пароль">
+    <input [(ngModel)]="password" #inputPassword="prizmInputPassword" prizmInputPassword />
+    <prizm-input-password-auxiliary-control
+      [inputPassword]="inputPassword"
+      prizm-input-right
+    ></prizm-input-password-auxiliary-control>
+  </prizm-input-layout>
+  <button (click)="handleClickOnLogin()" prizmButton>Вход</button>
+  
+  
+</div>

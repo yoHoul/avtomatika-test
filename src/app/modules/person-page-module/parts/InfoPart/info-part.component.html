@@ -1,0 +1,37 @@
+<div class="info">
+    <div class="info-top">
+        <div class="info-top-left">
+            <img *ngIf="this.usersService.user?.img" class="info-top-img" [src]="this.usersService.user?.img" alt="">
+            <div *ngIf="!this.usersService.user?.img" class="info-top-img"
+                [ngStyle]="{'background-color': this.usersService.user?.backgroundColor, 'border':'2px solid #0078D2'}">
+                {{ this.usersService.getInitials(this.usersService.user ? this.usersService.user.name : "") }}
+            </div>
+            <div class="info-top-name">
+                <span class="person-name">{{ this.usersService.user?.name }}</span>
+                <span class="person-description">{{ this.usersService.user?.position }}</span>
+            </div>
+        </div>
+        <div class="info-top-right">
+            <button class="check-button">Заступить на смену</button>
+        </div>
+    </div>
+
+    <div class="info-middle">
+        <div class="info-switch-btn">
+            <div class="info-switch-btn-container">
+                <span class="info-switch-btn-active">Сегодня</span>
+                <span class="info-switch-btn-disable">Вчера</span>
+            </div>
+        </div>
+        <button class="info-btn-img">
+            <img class="info-switch-img" src="../../../../../assets/person-page/date-switch/calendar-img.png" alt="">
+        </button>
+    </div>
+
+    <div class="info-bottom">
+        <ng-container *ngFor="let card of this.usersService.userUI?.cards">
+            <app-info-card class="info-cards" [card]="card"></app-info-card>
+        </ng-container>
+        <app-addInfoCard class="info-cards"></app-addInfoCard>
+    </div>
+</div>

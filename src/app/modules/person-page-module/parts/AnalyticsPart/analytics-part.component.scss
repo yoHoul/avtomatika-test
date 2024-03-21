@@ -1,0 +1,231 @@
+.analytics {
+    width: 100%;
+    height: auto;
+    border-top: 2px solid #FFFFFF33;
+}
+
+.analytics-header {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    height: 60px;
+}
+
+.analytics-header-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3%;
+    width: 100%;
+}
+
+.analytics-header-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.analytics-header-description {
+    color: #FFFFFF99;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.analytics-header-menu {
+    height: 100%;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3%;
+}
+
+.header-menu-settings {
+    width: 125px;
+    height: 32px;
+    display: flex;
+    background-color: #FAFAFA29;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.75);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.header-menu-btn-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA29;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.header-menu-settings-img {
+    object-fit: contain;
+    margin-right: 15px;
+}
+
+.header-menu-settings-text {
+    font-size: 14px;
+}
+
+.analytics-statistics {
+    width: 94%;
+    height: 1200px;
+    margin-top: 40px;
+    margin-right: 3%;
+    margin-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.5%;
+}
+
+.analytics-statistics-tab {
+    border: 2px solid #FFFFFF33;
+    border-radius: 5px;
+    height: 500px;
+    width: 30%;
+    padding-bottom: 30%;
+    flex: 0 0 calc(33% - 2%);
+}
+
+.tab-header {
+    border-bottom: 2px solid #FFFFFF33;
+    padding: 10px;
+}
+
+.tab-header-title {
+    width: 100%;
+    height: 50px;
+    max-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.analytics-statistics-btn-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA29;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.tab-header-text {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.tab-header-text-second {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #ffffff99
+}
+
+.tab-header-buttons {
+    display: flex;
+    height: 50px;
+    max-height: 50px;
+    margin-top: 6%;
+    margin-left: 1%;
+    margin-right: 2%;
+    justify-content: space-between;
+}
+
+.tab-switch-btn {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-switch-btn-container {
+    font-size: 14px;
+    width: 250px;
+    height: 32px;
+    border: 2px solid #FFFFFF33;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.tab-switch-btn2-container {
+    font-size: 14px;
+    width: 166px;
+    height: 32px;
+    border: 2px solid #FFFFFF33;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.tab-switch-btn-active {
+    width: 50%;
+    height: 32px;
+    background-color: #0078D2;
+    border: 2px solid #0078D2;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    padding-top: 2px;
+}
+
+.tab-switch-btn-disable {
+    color: #FFFFFFCC;
+    width: 50%;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.tab-more-btn {
+    width: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.more-button {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 115px;
+    height: 32px;
+    border: none;
+    background: #0078D2;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.tab-header-title-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}

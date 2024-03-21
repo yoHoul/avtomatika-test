@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "cards": [
+      {
+        "title": "Количество заданий",
+        "lastDate": "12:42",
+        "taskComplete": 2,
+        "allTasks": 4,
+        "notification": false
+      },
+      {
+        "title": "Уведомления",
+        "lastDate": "9:01",
+        "taskComplete": 1,
+        "allTasks": 4,
+        "notification": true
+      },
+      {
+        "title": "Показатель эффективности",
+        "lastDate": "13:08",
+        "taskComplete": 78,
+        "notification": false
+      }
+    ],
+    "incidentChartData": [
+      { "value": 12, "name": "Закрытые" },
+      { "value": 6, "name": "Активные" },
+      { "value": 6, "name": "Новые" }
+    ],
+    "KPIChartData": {
+      "mounth": ["01", "02", "03", "04", "05", "06"],
+      "value": [32, 43, 12, 66, 42, 17]
+    },
+    "LabChartData": {
+      "mounth": ["01", "02", "03", "04", "05", "06"],
+      "value": [12, 43, 34, 65, 51, 24]
+    },
+    "EventChartData": [
+      {
+        "title": "Произошла корректировка",
+        "decription": "Блок АВТ",
+        "date": "25.06.2022"
+      },
+      {
+        "title": "Оптимум изменён",
+        "decription": "Блок компрессоров",
+        "date": "27.06.2022"
+      }
+    ],
+    "table": [
+      {
+        "begin": "18.05.2022",
+        "employer": "Романов М.Д.",
+        "position": "Технолог",
+        "status": "Без происшествий",
+        "end": "20.11.2022"
+      },
+      {
+        "begin": "04.04.2022",
+        "employer": "Фомин Ф.М.",
+        "position": "Оператор",
+        "status": "Замечено нарушение",
+        "end": "08.01.2023"
+      },
+      {
+        "begin": "25.05.2022",
+        "employer": "Калашникова К.И.",
+        "position": "Технолог",
+        "status": "Без происшествий",
+        "end": "26.12.2022"
+      },
+      {
+        "begin": "19.03.2022",
+        "employer": "Петров В.Е.",
+        "position": "Оператор",
+        "status": "Без происшествий",
+        "end": "07.01.2023"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "cards": [
+      {
+        "title": "Количество заданий",
+        "lastDate": "12:42",
+        "taskComplete": 1,
+        "allTasks": 5,
+        "notification": false
+      },
+      {
+        "title": "Уведомления",
+        "lastDate": "9:01",
+        "taskComplete": 2,
+        "allTasks": 4,
+        "notification": true
+      },
+      {
+        "title": "Показатель эффективности",
+        "lastDate": "13:08",
+        "taskComplete": 46,
+        "notification": false
+      }
+    ],
+    "incidentChartData": [
+      { "value": 15, "name": "Закрытые" },
+      { "value": 7, "name": "Активные" },
+      { "value": 8, "name": "Новые" }
+    ],
+    "KPIChartData": {
+      "mounth": ["01", "02", "03", "04", "05", "06"],
+      "value": [32, 43, 12, 66, 42, 17]
+    },
+    "LabChartData": {
+      "mounth": ["01", "02", "03", "04", "05", "06"],
+      "value": [12, 43, 34, 65, 51, 24]
+    },
+    "EventChartData": [
+      {
+        "title": "Произошла ошибка",
+        "decription": "Блок ИВТ",
+        "date": "22.07.2022"
+      },
+      {
+        "title": "Оптимум пройден",
+        "decription": "Блок насосов",
+        "date": "12.02.2022"
+      }
+    ],
+    "table": [
+      {
+        "begin": "27.07.2022",
+        "employer": "Бочарова А.Д.",
+        "position": "Оператор",
+        "status": "Замечено нарушение",
+        "end": "24.12.2022"
+      },
+      {
+        "begin": "02.08.2022",
+        "employer": "Петрова С.Е.",
+        "position": "Технолог",
+        "status": "Без происшествий",
+        "end": "02.01.2023"
+      },
+      {
+        "begin": "19.11.2022",
+        "employer": "Суворов А.Т.",
+        "position": "Оператор",
+        "status": "Без происшествий",
+        "end": "08.01.2023"
+      },
+      {
+        "begin": "16.06.2022",
+        "employer": "Куликова А.Л.",
+        "position": "Технолог",
+        "status": "Без происшествий",
+        "end": "23.12.2022"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "cards": [
+      {
+        "title": "Количество заданий",
+        "lastDate": "12:42",
+        "taskComplete": 4,
+        "allTasks": 7,
+        "notification": false
+      },
+      {
+        "title": "Уведомления",
+        "lastDate": "9:01",
+        "taskComplete": 2,
+        "allTasks": 3,
+        "notification": true
+      },
+      {
+        "title": "Показатель эффективности",
+        "lastDate": "13:08",
+        "taskComplete": 85,
+        "notification": false
+      }
+    ],
+    "incidentChartData": [
+      { "value": 9, "name": "Закрытые" },
+      { "value": 6, "name": "Активные" },
+      { "value": 3, "name": "Новые" }
+    ],
+    "KPIChartData": {
+      "mounth": ["01", "02", "03", "04", "05", "06"],
+      "value": [32, 43, 12, 66, 42, 17]
+    },
+    "LabChartData": {
+      "mounth": ["01", "02", "03", "04", "05", "06"],
+      "value": [12, 43, 34, 65, 51, 24]
+    },
+    "EventChartData": [
+      {
+        "title": "Произошла поломка",
+        "decription": "Блок ИСТ",
+        "date": "21.11.2022"
+      },
+      {
+        "title": "Взрыв",
+        "decription": "Блок компрессоров",
+        "date": "27.06.2022"
+      }
+    ],
+    "table": [
+      {
+        "begin": "15.01.2022",
+        "employer": "Пахомова В.К.",
+        "position": "Технолог",
+        "status": "Без происшествий",
+        "end": "30.12.2022"
+      },
+      {
+        "begin": "27.02.2022",
+        "employer": "Сахаров Т.М.",
+        "position": "Оператор",
+        "status": "Без происшествий",
+        "end": "05.01.2023"
+      },
+      {
+        "begin": "19.12.2022",
+        "employer": "Андреев С.Г.",
+        "position": "Оператор",
+        "status": "Без происшествий",
+        "end": "26.12.2022"
+      },
+      {
+        "begin": "17.10.2022",
+        "employer": "Романов Ф.А.",
+        "position": "Технолог",
+        "status": "Замечено нарушение",
+        "end": "20.12.2022"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "cards": [
+      {
+        "title": "Количество заданий",
+        "lastDate": "12:42",
+        "taskComplete": 1,
+        "allTasks": 7,
+        "notification": false
+      },
+      {
+        "title": "Уведомления",
+        "lastDate": "9:01",
+        "taskComplete": 6,
+        "allTasks": 12,
+        "notification": true
+      },
+      {
+        "title": "Показатель эффективности",
+        "lastDate": "13:08",
+        "taskComplete": 74,
+        "notification": false
+      }
+    ],
+    "incidentChartData": [
+      { "value": 10, "name": "Закрытые" },
+      { "value": 4, "name": "Активные" },
+      { "value": 6, "name": "Новые" }
+    ],
+    "KPIChartData": {
+      "mounth": ["01", "02", "03", "04", "05", "06"],
+      "value": [32, 43, 12, 66, 42, 17]
+    },
+    "LabChartData": {
+      "mounth": ["01", "02", "03", "04", "05", "06"],
+      "value": [12, 43, 34, 65, 51, 24]
+    },
+    "EventChartData": [
+      {
+        "title": "Иноплонетная высодка",
+        "decription": "Страна: Россия",
+        "date": "18.06.2022"
+      },
+      {
+        "title": "Оптимум изменён",
+        "decription": "Блок компрессоров",
+        "date": "22.06.2022"
+      }
+    ],
+    "table": [
+      {
+        "begin": "14.11.2022",
+        "employer": "Мешкова В.К.",
+        "position": "Оператор",
+        "status": "Без происшествий",
+        "end": "04.01.2023"
+      },
+      {
+        "begin": "11.05.2022",
+        "employer": "Соловьева М.С.",
+        "position": "Технолог",
+        "status": "Без происшествий",
+        "end": "11.01.2023"
+      },
+      {
+        "begin": "20.02.2022",
+        "employer": "Митрофанов А.Г.",
+        "position": "Технолог",
+        "status": "Замечено нарушение",
+        "end": "11.02.2023"
+      },
+      {
+        "begin": "21.09.2022",
+        "employer": "Киселев А.А.",
+        "position": "Оператор",
+        "status": "Без происшествий",
+        "end": "26.02.2023"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "cards": [
+      {
+        "title": "Количество заданий",
+        "lastDate": "12:42",
+        "taskComplete": 3,
+        "allTasks": 3,
+        "notification": false
+      },
+      {
+        "title": "Уведомления",
+        "lastDate": "9:01",
+        "taskComplete": 2,
+        "allTasks": 12,
+        "notification": true
+      },
+      {
+        "title": "Показатель эффективности",
+        "lastDate": "13:08",
+        "taskComplete": 42,
+        "notification": false
+      }
+    ],
+    "incidentChartData": [
+      { "value": 20, "name": "Закрытые" },
+      { "value": 19, "name": "Активные" },
+      { "value": 1, "name": "Новые" }
+    ],
+    "KPIChartData": {
+      "mounth": ["01", "02", "03", "04", "05", "06"],
+      "value": [32, 43, 12, 66, 42, 17]
+    },
+    "LabChartData": {
+      "mounth": ["01", "02", "03", "04", "05", "06"],
+      "value": [12, 43, 34, 65, 51, 24]
+    },
+    "EventChartData": [
+      {
+        "title": "Настал третий удар",
+        "decription": "Блок ФИТ",
+        "date": "28.06.2022"
+      },
+      {
+        "title": "Оптимум изменён",
+        "decription": "Блок компрессоров",
+        "date": "25.06.2022"
+      }
+    ],
+    "table": [
+      {
+        "begin": "18.11.2022",
+        "employer": "Абрамов Д.К.",
+        "position": "Оператор",
+        "status": "Замечено нарушение",
+        "end": "15.02.2023"
+      },
+      {
+        "begin": "15.05.2022",
+        "employer": "Иванов Г.П.",
+        "position": "Оператор",
+        "status": "Без происшествий",
+        "end": "28.02.2023"
+      },
+      {
+        "begin": "25.02.2022",
+        "employer": "Сергеева У.Н.",
+        "position": "Технолог",
+        "status": "Без происшествий",
+        "end": "15.01.2023"
+      },
+      {
+        "begin": "12.09.2022",
+        "employer": "Ильина Е.Р.",
+        "position": "Технолог",
+        "status": "Без происшествий",
+        "end": "09.01.2023"
+      }
+    ]
+  }
+]

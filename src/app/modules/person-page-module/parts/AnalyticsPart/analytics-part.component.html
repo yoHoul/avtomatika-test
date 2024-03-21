@@ -1,0 +1,140 @@
+<div class="analytics">
+    <div class="analytics-header">
+        <div class="analytics-header-info">
+            <div class="analytics-header-title">
+                Аналитика по рабочему пространству
+            </div>
+            <div class="analytics-header-description">
+                Установка КВР-342
+            </div>
+        </div>
+        <div class="analytics-header-menu">
+            <button class="header-menu-settings">
+                <img class="header-menu-settings-img" src="../../../../../assets/analytics/gear.png" alt="img">
+                <span class="header-menu-settings-text">Настроить</span>
+            </button>
+            <button class="header-menu-btn-icon">
+                <img src="../../../../../assets/analytics/dots.png" alt="img">
+            </button>
+            <button class="header-menu-btn-icon">
+                <img src="../../../../../assets/analytics/share.png" alt="img">
+            </button>
+        </div>
+    </div>
+
+
+    <div class="analytics-statistics">
+        <div class="analytics-statistics-tab">
+            <div class="tab-header">
+                <div class="tab-header-title">
+                    <span class="tab-header-text">Количество инцидентов</span>
+                    <button class="analytics-statistics-btn-icon">
+                        <img src="../../../../../assets/analytics/dots.png" alt="img">
+                        <img src="../../../../../assets/analytics/dots.png" alt="img">
+                    </button>
+                </div>
+                <div class="tab-header-buttons">
+                    <div class="tab-switch-btn-container">
+                        <span class="tab-switch-btn-disable">День</span>
+                        <span class="tab-switch-btn-active">Неделя</span>
+                        <span class="tab-switch-btn-disable">Месяц</span>
+                    </div>
+                    <div class="tab-more-btn">
+                        <button class="more-button">Подробнее</button>
+                    </div>
+                </div>
+
+            </div>
+            <app-incidentChart></app-incidentChart>
+            <div>
+            </div>
+        </div>
+
+        <div class="analytics-statistics-tab">
+            <div class="tab-header">
+                <div class="tab-header-title">
+                    <div class="tab-header-title-text">
+                        <span class="tab-header-text">Показатель КПЭ</span>
+                        <span class="tab-header-text-second">Общее</span>
+                    </div>
+                    <button class="analytics-statistics-btn-icon">
+                        <img src="../../../../../assets/analytics/dots.png" alt="img">
+                        <img src="../../../../../assets/analytics/dots.png" alt="img">
+                    </button>
+                </div>
+                <div class="tab-header-buttons" #themeTable2>
+                    <prizm-input-layout style="width: 250px;" label="Выберите период">
+                        <prizm-input-layout-date-range [formControl]="value" [min]="min" [max]="max">
+                        </prizm-input-layout-date-range>
+                    </prizm-input-layout>
+                    <div class="tab-more-btn">
+                        <button class="more-button">Подробнее</button>
+                    </div>
+                </div>
+
+            </div>
+            <app-kpiChart></app-kpiChart>
+            <div>
+            </div>
+        </div>
+
+        <div class="analytics-statistics-tab">
+            <div class="tab-header">
+                <div class="tab-header-title">
+                    <div class="tab-header-title-text">
+                        <span class="tab-header-text">Лента событий</span>
+                        <span class="tab-header-text-second">Все заведения</span>
+                    </div>
+                    <button class="analytics-statistics-btn-icon">
+                        <img src="../../../../../assets/analytics/dots.png" alt="img">
+                        <img src="../../../../../assets/analytics/dots.png" alt="img">
+                    </button>
+                </div>
+                <div class="tab-header-buttons">
+                    <div class="tab-switch-btn2-container">
+                        <span class="tab-switch-btn-disable">День</span>
+                        <span class="tab-switch-btn-active">Неделя</span>
+                    </div>
+                    <div class="tab-more-btn">
+                        <button class="more-button">Подробнее</button>
+                    </div>
+                </div>
+
+            </div>
+            <app-eventChart></app-eventChart>
+            <div>
+            </div>
+        </div>
+
+        <div class="analytics-statistics-tab">
+            <div class="tab-header">
+                <div class="tab-header-title">
+                    <span class="tab-header-text">Данные лаб. анализов</span>
+                    <button class="analytics-statistics-btn-icon">
+                        <img src="../../../../../assets/analytics/dots.png" alt="img">
+                        <img src="../../../../../assets/analytics/dots.png" alt="img">
+                    </button>
+                </div>
+                <div class="tab-header-buttons">
+                    <div style="width: 250px;" #themeTable>
+                        <prizm-input-layout label="Выберите тип:">
+                            <prizm-input-select #input [formControl]="control" [items]="items"></prizm-input-select>
+                            <ng-template [control]="$any(input)" prizmInputStatusText>dddd</ng-template>
+                          </prizm-input-layout>
+                    </div>
+                    <div class="tab-more-btn">
+                        <button class="more-button">Подробнее</button>
+                    </div>
+                </div>
+
+            </div>
+            <app-labChart></app-labChart>
+            <div>
+            </div>
+        </div>
+
+        <div class="analytics-statistics-tab">
+            <app-addStatisticTab></app-addStatisticTab>
+        </div>
+    </div>
+</div>

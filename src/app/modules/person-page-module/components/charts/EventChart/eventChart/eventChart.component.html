@@ -1,0 +1,12 @@
+<div class="event-chart">
+  <div class="chart-item" *ngFor="let item of this.usersService.userUI?.EventChartData">
+    <div class="chart-item-top">
+      <span class="chart-item-top-text">{{ item.title }}</span>
+    </div>
+    <div class="chart-item-bottom">
+      <span class="chart-item-bottom-text">{{ item.decription }}</span>
+      <span class="chart-item-bottom-text">{{ item.date }}</span>
+    </div>
+  </div>
+
+</div>

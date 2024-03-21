@@ -1,0 +1,8 @@
+<div class="container">
+    <app-header></app-header>
+    <div class="main-container">
+        <app-sidebar class="sidebar-container"></app-sidebar>
+        <app-login-page class="login-page-container" *ngIf="this.usersService.user?.id !== this.usersService.userUI?.id"></app-login-page>
+        <app-person-page class="person-page-container" *ngIf="this.usersService.user?.id === this.usersService.userUI?.id && this.usersService.user"></app-person-page>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+<div class="sidebar">
+    <div class="sidebar-users">
+        <ng-container *ngFor="let user of this.usersService.users; trackBy:trackUser">
+            <img *ngIf="user.img" class="sidebar-img" [src]=user.img alt="img" (click)="handleClickOnPerson(user)" [ngStyle]="{'border': user.isActive ? '2px solid #0078D2' : 'none'}">
+            <div *ngIf="!user.img" class="sidebar-img sidebar-img-alt" [ngStyle]="{'background-color': user.backgroundColor, 'border': user.isActive ? '2px solid #0078D2' : 'none'}" (click)="handleClickOnPerson(user)">
+                {{ this.usersService.getInitials(user.name) }}
+            </div>
+        </ng-container>
+    </div>
+    <div class="sidebar-info">
+        <button class="sidebar-info-btn">
+            <img src="../../../assets/sidebar/Info.png" alt="img">
+        </button>
+    </div>
+    
+</div>

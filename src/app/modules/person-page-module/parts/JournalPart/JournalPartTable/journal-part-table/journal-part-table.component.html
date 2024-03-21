@@ -1,0 +1,37 @@
+<div class="journal-part-table" #themeTable>
+  <prizm-scrollbar class="scrollable">
+    <table class="table" prizmTable size="l">
+      <thead>
+        <tr prizmThGroup>
+          <th prizmTh>Дата выхода на смену</th>
+          <th prizmTh>Сотрудник</th>
+          <th prizmTh>Должность</th>
+          <th prizmTh>Статус</th>
+          <th prizmTh>Дата завершения</th>
+        </tr>
+      </thead>
+
+      <tbody [data]="this.usersService.userUI?.table ? this.usersService.userUI!.table : []" prizmTbody>
+        <ng-container *prizmRow="
+            let item of this.usersService.userUI!.table;
+            trackBy: trackByFn
+          ">
+          <tr prizmTr>
+            <td prizmTd>
+              {{ item.begin }}
+            </td>
+            <td prizmTd>
+              {{ item.employer }}
+            </td>
+            <td prizmTd>{{ item.position }}</td>
+            <td prizmTd>
+              {{ item.status }}
+            </td>
+            <td prizmTd>{{ item.end }}</td>
+          </tr>
+        </ng-container>
+      </tbody>
+    </table>
+  </prizm-scrollbar>
+
+</div>

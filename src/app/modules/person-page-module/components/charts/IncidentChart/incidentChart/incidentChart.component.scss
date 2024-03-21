@@ -1,0 +1,51 @@
+.demo-chart {
+    width: 70%;
+    height: 100%;
+    padding: 40px;
+    font-size: 24px;
+  }
+
+.incident-chart {
+  display: flex;
+  width: 100%;
+  height: 350px;
+}
+
+.incidentChart-history {
+  margin-top: 40px;
+  width: auto;
+  max-width: 30%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.history-text {
+  display: flex;
+  align-items: center;
+}
+
+.text-dot-complete, .text-dot-active, .text-dot-new {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.text-dot-complete {
+  background-color: #91cc75;
+}
+
+.text-dot-active {
+  background-color: #fac858;
+}
+
+.text-dot-new {
+  background-color: #5470c6;
+}
+
+.text {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #FFFFFF99;
+}

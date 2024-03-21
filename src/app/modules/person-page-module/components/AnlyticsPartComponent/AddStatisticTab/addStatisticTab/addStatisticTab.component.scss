@@ -1,0 +1,32 @@
+.add-statistic-tab {
+    width: auto;
+    height: 54vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35%;
+    padding-bottom: 35%;
+}
+
+.add-statistic-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.add-statistic-btn {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 115px;
+    height: 32px;
+    border: none;
+    background: #FAFAFA29;
+    border-radius: 35px;
+    cursor: pointer;
+}

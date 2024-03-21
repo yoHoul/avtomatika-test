@@ -1,0 +1,38 @@
+.event-chart {
+    width: 100%;
+    height: 350px;
+}
+
+.chart-item {
+    width: 100%;
+    height: 25%;
+    border-bottom: 2px solid #FFFFFF33;
+    padding: 10px;
+}
+
+.chart-item-top {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+}
+
+.chart-item-top-text {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.chart-item-bottom {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chart-item-bottom-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #FFFFFF99;
+}

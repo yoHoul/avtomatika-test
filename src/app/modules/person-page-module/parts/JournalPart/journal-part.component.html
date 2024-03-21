@@ -1,0 +1,21 @@
+<div class="journal">
+    <div class="journal-header">
+        <div class="journal-header-info">
+            <div class="journal-header-title">
+                Журнал смен
+            </div>
+            <div class="journal-header-description">
+                Установка КВР-342
+            </div>
+        </div>
+        <div class="journal-header-button">
+            <button class="header-export-btn" (click)="exportExcel()">
+                <img class="header-export-btn-img" src="../../../../../assets/journal/Download.png" alt="img">
+                <span class="header-export-btn-text">Выгрузить</span>
+            </button>
+        </div>
+    </div>
+
+    <app-journal-part-table class="journal-table"></app-journal-part-table>
+
+</div>
